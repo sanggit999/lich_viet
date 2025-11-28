@@ -38,6 +38,31 @@ android {
         }
     }
 
+    flavorDimensions += "app"
+
+    productFlavors {
+        create("dev") {
+            dimension = "app"
+            applicationId = "com.sangdeveloper999.lich_viet.dev"
+            resValue("string", "app_name", "Lịch Việt Dev")
+            versionNameSuffix = "-dev"
+        }
+
+        create("stage") {
+            dimension = "app"
+            applicationId = "com.sangdeveloper999.lich_viet.stage"
+            resValue("string", "app_name", "Lịch Việt Stage")
+            versionNameSuffix = "-stage"
+        }
+
+        create("prod") {
+            dimension = "app"
+            applicationId = "com.sangdeveloper999.lich_viet"
+            resValue("string", "app_name", "Lịch Việt")
+            versionNameSuffix = "-prod"
+        }
+    }
+
 }
 
 flutter {

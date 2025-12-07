@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Background gradient -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_background"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Ngày âm lịch -->
+        <TextView
+            android:id="@+id/lunar_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="72sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4" />
+
+        <!-- Tháng âm lịch -->
+        <TextView
+            android:id="@+id/lunar_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tháng Giêng"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:shadowColor="#80000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+
+        <!-- Năm Can Chi -->
+        <TextView
+            android:id="@+id/lunar_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm Giáp Thìn"
+            android:textSize="14sp"
+            android:textColor="#FFFFFFCC"
+            android:layout_marginTop="4dp"
+            android:shadowColor="#80000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+
+    </LinearLayout>
+
+</RelativeLayout>

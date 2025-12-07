@@ -1,0 +1,43 @@
+name: lich_viet
+description: "Vietnamese Lunar Calendar App"
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # State Management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+
+  # Service Locator
+  get_it: ^7.6.4
+
+  # Functional Programming
+  dartz: ^0.10.1
+
+  # Home Screen Widget
+  home_widget: ^0.8.1
+
+  # Utils
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
